@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		129122D52770A4DD005408A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122D42770A4DD005408A2 /* AppDelegate.swift */; };
 		129122D72770A4DD005408A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122D62770A4DD005408A2 /* SceneDelegate.swift */; };
-		129122D92770A4DD005408A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122D82770A4DD005408A2 /* ViewController.swift */; };
+		129122D92770A4DD005408A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122D82770A4DD005408A2 /* MainViewController.swift */; };
 		129122DC2770A4DD005408A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129122DA2770A4DD005408A2 /* Main.storyboard */; };
 		129122DE2770A4DE005408A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129122DD2770A4DE005408A2 /* Assets.xcassets */; };
 		129122E12770A4DE005408A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129122DF2770A4DE005408A2 /* LaunchScreen.storyboard */; };
+		129122EA2770AA46005408A2 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 129122E92770AA46005408A2 /* Charts */; };
+		129122EC2770AA46005408A2 /* ChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 129122EB2770AA46005408A2 /* ChartsDynamic */; };
+		129122EE2770AFF4005408A2 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122ED2770AFF4005408A2 /* ChartsViewController.swift */; };
+		129122F02770B077005408A2 /* ControllDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122EF2770B077005408A2 /* ControllDelegate.swift */; };
+		129122F22770B0CD005408A2 /* CustomAddTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122F12770B0CD005408A2 /* CustomAddTableViewCell.swift */; };
+		129122F42770B137005408A2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122F32770B137005408A2 /* CustomTableViewCell.swift */; };
+		129122F62770B197005408A2 /* KeywordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129122F52770B197005408A2 /* KeywordsViewController.swift */; };
+		129122F92770B27E005408A2 /* Time Visualizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 129122F72770B27E005408A2 /* Time Visualizer.xcdatamodeld */; };
+		129122FC2770B476005408A2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 129122FB2770B476005408A2 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		129122D12770A4DD005408A2 /* Time Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Visualizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		129122D42770A4DD005408A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		129122D62770A4DD005408A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		129122D82770A4DD005408A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		129122D82770A4DD005408A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		129122DB2770A4DD005408A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		129122DD2770A4DE005408A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		129122E02770A4DE005408A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		129122E22770A4DE005408A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129122ED2770AFF4005408A2 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		129122EF2770B077005408A2 /* ControllDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllDelegate.swift; sourceTree = "<group>"; };
+		129122F12770B0CD005408A2 /* CustomAddTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddTableViewCell.swift; sourceTree = "<group>"; };
+		129122F32770B137005408A2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		129122F52770B197005408A2 /* KeywordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordsViewController.swift; sourceTree = "<group>"; };
+		129122F82770B27E005408A2 /* Time Visualizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Time Visualizer.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129122FC2770B476005408A2 /* Algorithms in Frameworks */,
+				129122EA2770AA46005408A2 /* Charts in Frameworks */,
+				129122EC2770AA46005408A2 /* ChartsDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +75,15 @@
 			isa = PBXGroup;
 			children = (
 				129122D42770A4DD005408A2 /* AppDelegate.swift */,
+				129122ED2770AFF4005408A2 /* ChartsViewController.swift */,
+				129122EF2770B077005408A2 /* ControllDelegate.swift */,
+				129122F12770B0CD005408A2 /* CustomAddTableViewCell.swift */,
+				129122F32770B137005408A2 /* CustomTableViewCell.swift */,
+				129122F52770B197005408A2 /* KeywordsViewController.swift */,
 				129122D62770A4DD005408A2 /* SceneDelegate.swift */,
-				129122D82770A4DD005408A2 /* ViewController.swift */,
+				129122D82770A4DD005408A2 /* MainViewController.swift */,
 				129122DA2770A4DD005408A2 /* Main.storyboard */,
+				129122F72770B27E005408A2 /* Time Visualizer.xcdatamodeld */,
 				129122DD2770A4DE005408A2 /* Assets.xcassets */,
 				129122DF2770A4DE005408A2 /* LaunchScreen.storyboard */,
 				129122E22770A4DE005408A2 /* Info.plist */,
@@ -83,6 +107,11 @@
 			dependencies = (
 			);
 			name = "Time Visualizer";
+			packageProductDependencies = (
+				129122E92770AA46005408A2 /* Charts */,
+				129122EB2770AA46005408A2 /* ChartsDynamic */,
+				129122FB2770B476005408A2 /* Algorithms */,
+			);
 			productName = "Time Visualizer";
 			productReference = 129122D12770A4DD005408A2 /* Time Visualizer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +140,10 @@
 				Base,
 			);
 			mainGroup = 129122C82770A4DD005408A2;
+			packageReferences = (
+				129122E82770AA46005408A2 /* XCRemoteSwiftPackageReference "Charts" */,
+				129122FA2770B475005408A2 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 129122D22770A4DD005408A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +171,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				129122D92770A4DD005408A2 /* ViewController.swift in Sources */,
+				129122F22770B0CD005408A2 /* CustomAddTableViewCell.swift in Sources */,
+				129122F92770B27E005408A2 /* Time Visualizer.xcdatamodeld in Sources */,
+				129122D92770A4DD005408A2 /* MainViewController.swift in Sources */,
+				129122EE2770AFF4005408A2 /* ChartsViewController.swift in Sources */,
+				129122F42770B137005408A2 /* CustomTableViewCell.swift in Sources */,
 				129122D52770A4DD005408A2 /* AppDelegate.swift in Sources */,
 				129122D72770A4DD005408A2 /* SceneDelegate.swift in Sources */,
+				129122F62770B197005408A2 /* KeywordsViewController.swift in Sources */,
+				129122F02770B077005408A2 /* ControllDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +397,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		129122E82770AA46005408A2 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		129122FA2770B475005408A2 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		129122E92770AA46005408A2 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 129122E82770AA46005408A2 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		129122EB2770AA46005408A2 /* ChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 129122E82770AA46005408A2 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = ChartsDynamic;
+		};
+		129122FB2770B476005408A2 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 129122FA2770B475005408A2 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		129122F72770B27E005408A2 /* Time Visualizer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				129122F82770B27E005408A2 /* Time Visualizer.xcdatamodel */,
+			);
+			currentVersion = 129122F82770B27E005408A2 /* Time Visualizer.xcdatamodel */;
+			path = "Time Visualizer.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 129122C92770A4DD005408A2 /* Project object */;
 }
